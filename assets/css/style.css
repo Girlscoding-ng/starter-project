@@ -36,8 +36,33 @@ body{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
+@media screen and (min-width:360px) and (max-width:640px){
+    .card-image img{
+        width: 220px;
+        /* height: 250px; */
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .card{
+        width: 220px;
+    } 
+
+}
+@media screen and (min-width:768px) and (max-width:1366px){
+    .card-image img{
+        width: 220px;
+        /* height: 250px; */
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .card{
+        width: 220px;
+    } 
+
+}
 .card-content{
     padding: 10px 14px;
+    width: 100%;
 }
 .card-content div:first-child{
     text-align: center;
