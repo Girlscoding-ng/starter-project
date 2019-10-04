@@ -167,3 +167,12 @@ body{
         display: ;
     }
 }
+.footer{
+    background-color: black;
+    padding: 15px;
+    overflow:hidden;
+}
+.hero{
+    color:white;
+    text-align: center;
+}
