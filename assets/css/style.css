@@ -36,14 +36,31 @@ body{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-@media screen and (min-width:320px) and (max-width:1024px){
+@media screen and (min-width: 240px) and (max-width:240px){
+    
+    div#cardWrapper {
+        width: 100%;
+        margin: 0px auto;
+    }
     .card-image img{
-        width: 220px;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
+        width: 100%;
     }
     .card{
-        width: 220px;
+        width: 100%;
+        margin: 20px auto;
+    }   
+}
+@media screen and (max-width:600px){
+    div#cardWrapper {
+        width: 80%;
+        margin: 0px auto;
+    }
+    .card-image img{
+        width: 100%;
+    }
+    .card{
+        width: 100%;
+        margin: 20px auto;
     }   
 }
 .card-content{
