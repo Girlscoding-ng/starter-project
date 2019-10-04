@@ -55,7 +55,7 @@ body{
 .bannerImg{
     margin: 0px;
     top:0px;
-    background: linear-gradient(rgba(0, 0, 0, 0.822) , rgba(0, 0, 0, 0.651)) , url(/assets/image/code.jpeg);
+    background: linear-gradient(rgba(0, 0, 0, 0.822) , rgba(0, 0, 0, 0.651)) , url(../image/code.jpeg);
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
