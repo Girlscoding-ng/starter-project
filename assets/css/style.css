@@ -90,6 +90,7 @@ body{
     transform: translate(-50%, -50%);
     text-align: center;
     z-index:2;
+    margin-top: 87px;
 }
 .hero-text h1{
     font-size: 3rem;
@@ -175,4 +176,36 @@ body{
 .hero{
     color:white;
     text-align: center;
+}
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding:30px;
+    margin: 0px 10px 0px 10px ;
+}
+.logo{
+    text-decoration:none;
+    color:black;
+}
+.item{
+    display: inline;
+    margin: 5px;
+    color: black;
+}
+.item:hover{
+    padding:5px;
+    border: 2px solid red;
+}
+
+nav ul li a{
+    display: inline;
+    text-decoration:none;
+    text-transform: capitalize;
+    color: black;
+    /* float: right; */
+}
+@media screen and (min-width:780px){
+  .item{
+        color: white;
+    }
 }
