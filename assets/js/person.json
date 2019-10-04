@@ -30,8 +30,13 @@
           "lastname": "Akinlalu",
           "image": "assets/image/beau.png",
           "word": "It is inspiring"
-       }
-
+       },
+       {
+        "firstname": " Alade",
+        "lastname": "Misturat",
+        "image": "assets/image/mist.png",
+        "word": "It makes it easier to profer solutions to problems"
+     }
     ]
 }
 
