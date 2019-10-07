@@ -95,6 +95,7 @@ body{
     font-size: 3rem;
 }
 
+/* DONE BY LADYJOY NWALA EBUBECHUKWU CHIZRAM */
 @media screen and (max-width: 600px){
     .img-wrapper{
         height: 40vh;
@@ -221,4 +222,30 @@ body{
 .hero{
     color:white;
     text-align: center;
+}
+
+/* NOSIRAT AND HOPE ARE COMPLAINING, LADYJOY WILL BURST THEIR BUBBLES */
+@media screen and (width: 640px){
+    .card {
+        width: 66vh;
+    }
+
+    .card-wrapper{
+        margin:0px;
+        width:100%;
+    }
+}
+
+@media screen and (width: 600px){
+    .card {
+        width: 43vh;
+    }
+    .card-image img {
+        width: 43vh;
+        height: 40vh;
+    }    
+    .card-wrapper{
+        margin:43px;
+        width:100%;
+    }
 }
