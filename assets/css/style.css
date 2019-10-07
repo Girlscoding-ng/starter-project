@@ -51,11 +51,6 @@ body{
     }   
 }
 @media screen and (max-width:600px){
-    div#cardWrapper {
-        /* width: 91%; */
-        /* margin: 0px auto; */
-        /* border: 1px solid red; */
-    }
     .card-image img{
         width: 100%;
     }
