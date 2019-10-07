@@ -36,6 +36,28 @@ body{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
+@media screen and (min-width: 240px) and (max-width:240px){
+    
+    div#cardWrapper {
+        width: 100%;
+        margin: 0px auto;
+    }
+    .card-image img{
+        width: 100%;
+    }
+    .card{
+        width: 100%;
+        margin: 20px auto;
+    }   
+}
+@media screen and (max-width:600px){
+    .card-image img{
+        width: 100%;
+    }
+    .card{
+        width: 100%;
+    }   
+}
 .card-content{
     padding: 10px 14px;
 }
@@ -107,6 +129,9 @@ body{
     }
     .card{
         width: 200px;
+        margin: 0px auto;
+        margin-left: 12%;
+        margin-top: 20px;
     }
     .card-image{
         width: 200px;
@@ -117,6 +142,9 @@ body{
     .card{
         width: 39.5%;
         height: auto;
+        margin: 0px auto;
+        margin-left: 12%;
+        margin-top: 20px;
     }
 
     .card-content {
@@ -132,6 +160,9 @@ body{
     .card{
         width: 406px;
         height: auto;
+        margin: 0px auto;
+        margin-left: 12%;
+        margin-top: 20px;
     }
 
     .card-wrapper {
@@ -150,6 +181,9 @@ body{
 @media screen and (width: 411px){
     .card {
         width: 325px;
+        margin: 0px auto;
+        margin-left: 12%;
+        margin-top: 20px;
     }
 
     .card-wrapper {
@@ -164,6 +198,9 @@ body{
 @media screen and (width: 320px){
     .card {
         width: 240px;
+        margin: 0px auto;
+        margin-left: 12%;
+        margin-top: 20px;
     }
 
     .card-wrapper {
@@ -186,12 +223,50 @@ body{
 
     .card{
         width: 76%;
+        margin: 0px auto;
+        margin-left: 12%;
+        margin-top: 20px;
     }
 }
 
 @media screen and (width: 375px){
     .card {
         width: 293px;
+        margin: 0px auto;
+        margin-left: 12%;
+        margin-top: 20px;
+    }
+    .card-wrapper {
+        width: 100%;
+    }
+
+    .card-image{
+        width: 100%;
+    }
+}
+
+@media screen and (width: 384px){
+    .card {
+        width: 293px;
+        margin: 0px auto;
+        margin-left: 12%;
+        margin-top: 20px;
+    }
+    .card-wrapper {
+        width: 100%;
+    }
+
+    .card-image{
+        width: 100%;
+    }
+}
+
+@media screen and (width: 412px){
+    .card {
+        width: 293px;
+        margin: 0px auto;
+        margin-left: 14%;
+        margin-top: 20px;
     }
     .card-wrapper {
         width: 100%;
@@ -205,6 +280,9 @@ body{
 @media screen and (width: 414px){
     .card {
         width: 337px;
+        margin: 0px auto;
+        margin-left: 12%;
+        margin-top: 20px;
     }
     .card-wrapper{
         width: 100%;
@@ -221,4 +299,49 @@ body{
 .hero{
     color:white;
     text-align: center;
+}
+@media screen and (width: 480px){
+    .card {
+        width: 293px;
+        margin: 0px auto;
+        margin-left: 20%;
+        margin-top: 20px;
+    }
+    .card-wrapper {
+        width: 100%;
+    }
+
+    .card-image{
+        width: 100%;
+    }
+}
+@media screen and (width: 768px){
+    .card {
+        width: 293px;
+        margin: 0px auto;
+        margin-left: 30%;
+        margin-top: 20px;
+    }
+    .card-wrapper {
+        width: 100%;
+    }
+
+    .card-image{
+        width: 100%;
+    }
+}
+@media screen and (width: 1024px){
+    .card {
+        width: 293px;
+        margin: 0px auto;
+        margin-left: 14%;
+        margin-top: 20px;
+    }
+    .card-wrapper {
+        width: 100%;
+    }
+
+    .card-image{
+        width: 100%;
+    }
 }
