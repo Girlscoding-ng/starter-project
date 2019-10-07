@@ -121,57 +121,8 @@ body{
 .hero-text h1{
     font-size: 3rem;
 }
-/* 
-@media screen and (min-width : 768px) and (max-width : 768px){
-    .hero{
-        font-size: 20px;
-        margin-bottom: 200px;
-    }
-    .banner-img{
-        width: 768px;
-        height: 50vh;
-    }
-    .img-wrapper{
-        height: 50vh;
-    }}
-@media screen and (min-width : 320px) and (max-width : 600px){
-    .hero{
-        font-size: 20px;
-        margin-bottom: 200px;
-    }
-    .banner-img{
-        width: px;
-        height: 50vh;
-    }
-    .img-wrapper{
-        height: 50vh;
-    }
-}
-@media screen and (min-width : 640px) and (max-width : 640px){
-    .hero{
-        font-size: 20px;
-        margin-bottom: 50px;
-    }
-    .banner-img{
-        width: 640px;
-        height: 70vh;
-    }
-    .img-wrapper{
-        height: 70vh;
-    }
-}
-@media screen and (width: 768px){
-    .hero{
-        font-size: 40px;
-        text-align: center;
-        margin-bottom: 250px;
-    }
-} */
 
 @media screen and (max-width: 600px){
-    body{
-        display: ;
-    }
     .img-wrapper{
         height: 40vh;
     }
@@ -189,8 +140,112 @@ body{
     }
 }
 
-@media screen and (min-width: 600px){
-    body{
-        display: ;
+@media screen and (width: 768px){
+    .card{
+        width: 39.5%;
+        height: auto;
     }
+
+    .card-content {
+        font-size: 26px;
+    }
+
+    .card-wrapper{
+        width: 100%;
+    }
+}
+
+@media screen and (width: 1024px){
+    .card{
+        width: 406px;
+        height: auto;
+    }
+
+    .card-wrapper {
+        width: 95%;
+    }
+
+    .card-image img {
+        height: 346px;
+    }
+
+    .card-content {
+        font-size: 37px;
+    }
+}
+
+@media screen and (width: 411px){
+    .card {
+        width: 325px;
+    }
+
+    .card-wrapper {
+        width: 100%;
+    }
+
+    .card-image{
+        width: 100%;
+    }
+}
+
+@media screen and (width: 320px){
+    .card {
+        width: 240px;
+    }
+
+    .card-wrapper {
+        width: 100%;
+    }
+
+    .card-image{
+        width: 100%;
+    }
+}
+
+@media screen and (width: 360px){
+    .card-image img{
+        width: 249px;
+    }
+    
+    .card-wrapper {
+        width: 91%;
+    }
+
+    .card{
+        width: 76%;
+    }
+}
+
+@media screen and (width: 375px){
+    .card {
+        width: 293px;
+    }
+    .card-wrapper {
+        width: 100%;
+    }
+
+    .card-image{
+        width: 100%;
+    }
+}
+
+@media screen and (width: 414px){
+    .card {
+        width: 337px;
+    }
+    .card-wrapper{
+        width: 100%;
+    }
+    .card-image img{
+        width: 169%;
+    }
+}
+.footer{
+    background-color: black;
+    padding: 15px;
+    overflow:hidden;
+}
+.hero{
+    color:white;
+    text-align: center;
 }
